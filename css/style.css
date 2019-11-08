@@ -295,24 +295,31 @@
     margin-bottom: -12px !important;
   }
 
-  .flame .shadows {
+  /* .flame .shadows {
     width: 15px !important ;
   }
 
   .wick {
     left: 70% !important ;
     height: 5px !important ;
-  }
+  } */
   .flame .top {
-    width: 12px !important;
+    width: 11px !important;
+    height: 130% !important ;
+    top: -5px !important;
+  }
+
+  .flame .bottom {
+    height: 6px !important;
+    width: 11px !important;
+    left: 9px !important ;
+    height: 5px !important ;
   }
 }
+
 @media only screen and (min-height: 800px) and (max-height: 1024px) {
-  .flame .top {
-    width: 8px !important;
-  }
   .containte {
-    height: 800px !important ;
+    height: 750px !important ;
     width: 600px !important ;
     margin-bottom: -20% !important;
     /* background: rgba(255, 215, 0, 0.7); */
@@ -325,15 +332,31 @@
     margin-left: 38% !important ;
     margin-bottom: -12px !important;
   }
-  .flame .shadows {
+  /* .flame .shadows {
     width: 11px !important ;
+  } */
+  /* .flame .top {
+    width: 8px !important;
+  } */
+  .flame .top {
+    width: 11px !important;
+    height: 130% !important ;
+    top: -5px !important;
+  }
+
+  .flame .bottom {
+    height: 6px !important;
+    width: 11px !important;
+    left: 9px !important ;
+    height: 5px !important ;
   }
 }
+
 @media only screen and (max-width: 420px) {
   .containte {
     height: 400px !important ;
     width: 300px !important ;
-    margin-bottom: -30% !important ;
+    margin-bottom: -60% !important ;
   }
   .mr-50 {
     margin-left: 44% !important;
@@ -343,11 +366,17 @@
     margin-left: 32% !important ;
     margin-bottom: -5px !important;
   }
-  .flame .shadows {
-    width: 7px !important ;
-  }
   .flame .top {
-    width: 4px !important;
+    width: 8px !important;
+    height: 80% !important ;
+    top: 2px !important;
+  }
+
+  .flame .bottom {
+    height: 4px !important;
+    width: 8px !important;
+    left: 9px !important ;
+    height: 5px !important ;
   }
 }
 
