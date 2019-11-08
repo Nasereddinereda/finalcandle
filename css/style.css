@@ -295,14 +295,9 @@
     margin-bottom: -12px !important;
   }
 
-  /* .flame .shadows {
-    width: 15px !important ;
-  }
-
   .wick {
-    left: 70% !important ;
-    height: 5px !important ;
-  } */
+    left: 65% !important ;
+  }
   .flame .top {
     width: 11px !important;
     height: 130% !important ;
@@ -332,12 +327,7 @@
     margin-left: 38% !important ;
     margin-bottom: -12px !important;
   }
-  /* .flame .shadows {
-    width: 11px !important ;
-  } */
-  /* .flame .top {
-    width: 8px !important;
-  } */
+
   .flame .top {
     width: 11px !important;
     height: 130% !important ;
@@ -349,6 +339,9 @@
     width: 11px !important;
     left: 9px !important ;
     height: 5px !important ;
+  }
+  .wick {
+    left: 65%;
   }
 }
 
