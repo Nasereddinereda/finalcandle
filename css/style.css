@@ -144,7 +144,7 @@
 }
 @keyframes blink {
   50% {
-    opacity: 0.95;
+    opacity: 0.85;
   }
 }
 
@@ -168,6 +168,7 @@
     transform: skewX(2deg) skewY(5deg);
   }
 }
+
 @keyframes move-left {
   50% {
     transform: skewX(10deg);
@@ -177,42 +178,42 @@
 .flame .shadows {
   position: absolute;
   left: 55%;
-  top: 0px;
+  top: -1px;
   width: 1px;
-  height: 0px;
+  height: 2px;
   border-radius: 50%;
-  box-shadow: 0 0.1px 0.3px 0.2px gold, 0 0px 1.6px 0.4px #ff6a00,
-    0 1px 3.3px 1px #ff6a00, 0.3px 2px 0.3px 0.8px #ff6a00,
-    0.3px 3.3px 0.3px 0.8px #ff6a00, 0 5px 3.3px 2px rgb(0, 0, 0, 0.6);
+  box-shadow: 0 2px 2px 2px gold, 0 0px 1.6px 0.4px #ff6a00,
+    0 2px 4px 2px #ff6a00, 2px 4px 1px 2px #ff6a00,
+    0.3px 3.3px 0.3px 0.8px #ff6a00, 0 10px 2px 4px rgb(0, 0, 0, 0.4);
 }
 
 .flame .top {
-  width: 7px;
+  width: 8px;
   height: 100%;
   position: absolute;
-  top: 3px;
+  top: 2px;
   left: 9.5px;
   background: white;
-  border-top-left-radius: 1000%;
+  border-top-left-radius: 5000px;
   border-bottom-left-radius: 50px;
-  border-top-right-radius: 1000%;
+  border-top-right-radius: 5000px;
   border-bottom-right-radius: 50px;
   transform: skewY(-10deg);
-  box-shadow: 0 0px 0px 0.2px #ff6a00, 0 -1.3px 0.1px 0.2px #ff6a00,
-    0 -1.66px 0.13px 0.2px gold, 0 -2px 0.3px 0.3px #ff6a00,
-    0 0px 10px 0.66px #ff6a00, 0 -0.66px 0.13px 0.26px #ff6a00,
-    0 -0.3px 0.2px 0.2px #ff6a00;
+  box-shadow: 0 0px 0px 0.2px white, 0 -1.3px 0.1px 0.2px white,
+    0 -2px 0.2px 0.3px gold, 0 -3px 1px 1px #ff6a00, 0 0px 10px 0.66px #ff6a00,
+    0 -0.66px 0.13px 0.26px white, 0 -0.3px 0.2px 0.2px white;
   animation: flame-up 4s infinite;
 }
 
 @keyframes flame-up {
   50% {
-    top: 1px;
-    height: 105%;
-    box-shadow: 0 0px 0px 0.2px #ff6a00, 0 -2.52px 0.1px 0.13px #ff6a00,
-      0 -2.72px 0.13px 0.2px gold, 0 -3.32px 0.3px 0.26px #ff6a00,
-      0 0px 10px 0.66px #ff6a00, 0 -0.66px 0.13px 0.36px #ff6a00,
-      0 -0.3px 0.2px 0.2px #ff6a00;
+    /* top: 1px; */
+    /* height: 100%; */
+
+    box-shadow: 0 0px 0px 0.2px white, 0 -2.52px 0.1px 0.13px white,
+      0 -2.72px 0.13px 0.4px gold, 0 -3px 1px 1px #ff6a00,
+      0 0px 10px 0.66px white, 0 -0.66px 0.13px 0.36px #ff6a00,
+      0 -0.3px 0.2px 0.2px white;
   }
 }
 
@@ -221,9 +222,9 @@
   position: absolute;
   bottom: -3px;
   left: 9px;
-  width: 7px;
-  height: 0.5px;
-  border-radius: 1%;
+  width: 8px;
+  height: 3px;
+  border-radius: 40%;
   background: rgba(44, 43, 57, 0.9);
   box-shadow: 0 0.4px 0.66px 0.8px rgba(60, 76, 125, 0.3),
     0 0px 0.26px 0.52px #2c2b39, 0 -0.8px 0.66px 0.52px rgba(255, 106, 0, 0.5),
@@ -236,9 +237,9 @@
 .wick {
   position: absolute;
   width: 1px;
-  height: 3px;
+  height: 7px;
   background: #23161a;
-  top: 10px;
+  top: 7px;
   left: 60%;
   transform: translateX(-50%) skewX(2deg);
   border-radius: 10%;
