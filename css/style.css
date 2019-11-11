@@ -1,4 +1,4 @@
-/* * {
+ * {
   margin: 0;
   padding: 0;
 }
@@ -129,7 +129,7 @@
   box-shadow: 0 -2px 1.3px 1.6px rgba(98, 33, 27, 0.8),
     0 0px 0.3px 1.3px rgba(255, 106, 0, 0.7), 0 0px 1px 1.3px #ff6a00,
     0 1.6px 1px 1.3px gold;
-} */
+} /*
 * {
   margin: 0;
   padding: 0;
@@ -207,8 +207,7 @@
 
 @keyframes flame-up {
   50% {
-    /* top: 1px; */
-    /* height: 100%; */
+ 
 
     box-shadow: 0 0px 0px 0.2px white, 0 -2.52px 0.1px 0.13px white,
       0 -2.72px 0.13px 0.4px gold, 0 -3px 1px 1px #ff6a00,
@@ -266,7 +265,7 @@
     0 0px 0.1px 0.26px rgba(255, 106, 0, 0.7), 0 0px 0.2px 0.26px #ff6a00,
     0 0.4px 0.2px 0.26px gold;
 }
-
+ */
 /* Showcase  */
 .showcase {
   height: 100vh;
